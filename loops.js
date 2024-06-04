@@ -3,16 +3,12 @@ for (let i = 0; i <= 5; i++) {
 }
 let str = "";
 for (let i = 0; i <= 5; i++) {
-  str += i.toString();
+  str += i;
 }
 alert(str);
 
-for (let i = 0; i <= 20; i = i * 3) {
-  if (i == 0) {
-    console.log(i);
-    i++;
-    continue;
-  } else console.log(i);
+for (let i = 0; i <= 20; i = i + 3) {
+  console.log(i);
 }
 
 while (true) {
